@@ -1,0 +1,15 @@
+# KiCad autosave and backup files
+_autosave*
+#auto_saved_files#
+*autosave*
+*autosave*.kicad_sch
+*autosave*.kicad_pcb
+*autosave*.bak
+*.kicad_prl
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
