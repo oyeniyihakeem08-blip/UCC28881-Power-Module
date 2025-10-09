@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "UCC2881 FP")(type "KiCad")(uri "${KIPRJMOD}/UCC2881.pretty")(options "")(descr ""))
+  (lib (name "350uf")(type "KiCad")(uri "${KIPRJMOD}/Footprint.pretty/350 cap.pretty")(options "")(descr ""))
+  (lib (name "100nf")(type "KiCad")(uri "${KIPRJMOD}/Footprint.pretty/100nf.pretty")(options "")(descr ""))
+  (lib (name "121k resistor")(type "KiCad")(uri "${KIPRJMOD}/Footprint.pretty")(options "")(descr ""))
+  (lib (name "121k res")(type "KiCad")(uri "${KIPRJMOD}/Footprint.pretty/121k res .pretty")(options "")(descr ""))
+  (lib (name "10k resistor")(type "KiCad")(uri "${KIPRJMOD}/Footprint.pretty/10k resistor.pretty")(options "")(descr ""))
+)
