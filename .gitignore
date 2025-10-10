@@ -13,3 +13,15 @@ _autosave*
 Thumbs.db
 *.tmp
 *.swp
+# KiCad noise
+*-bak
+*.lck
+*-table
+*-cache
+*-backups/
+
+# Explicit names seen in your repo
+fp-info-cache
+fp-lib-table
+sym-lib-table
+~*
