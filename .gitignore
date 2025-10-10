@@ -1,22 +1,25 @@
-# KiCad temporary, backup and autosave files
+# KiCad runtime, caches and library tables
+fp-info-cache
+fp-lib-table
+sym-lib-table
+
+# KiCad backups and autosaves
 *-backup
 *-BAK
-*-cache/
-*-table
+*.kicad_sch-bak
+*.kicad_pcb-bak
+~*
 autosave-*
 *.autosave
-*.bak
+
+# Lock files
 *.lck
 *.lock
 
-# KiCad user/project settings
+# User settings and temp
 *.pro.user
 mysettings.kicad_pro
 
-# Common temporary/old project files
+# Common stray project copies
 Version1.*
 untitled.*
-
-# 3D models (track with Git LFS instead if needed)
-3d_models/*.step
-3d_models/*.stl
