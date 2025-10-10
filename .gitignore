@@ -1,27 +1,22 @@
-# KiCad autosave and backup files
-_autosave*
-#auto_saved_files#
-*autosave*
-*autosave*.kicad_sch
-*autosave*.kicad_pcb
-*autosave*.bak
-*.kicad_prl
-*.bak
-
-# OS junk
-.DS_Store
-Thumbs.db
-*.tmp
-*.swp
-# KiCad noise
-*-bak
-*.lck
+# KiCad temporary, backup and autosave files
+*-backup
+*-BAK
+*-cache/
 *-table
-*-cache
-*-backups/
+autosave-*
+*.autosave
+*.bak
+*.lck
+*.lock
 
-# Explicit names seen in your repo
-fp-info-cache
-fp-lib-table
-sym-lib-table
-~*
+# KiCad user/project settings
+*.pro.user
+mysettings.kicad_pro
+
+# Common temporary/old project files
+Version1.*
+untitled.*
+
+# 3D models (track with Git LFS instead if needed)
+3d_models/*.step
+3d_models/*.stl
