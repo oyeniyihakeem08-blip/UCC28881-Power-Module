@@ -1,0 +1,531 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("R")
+        ("CESR_3")
+        ("C")
+        ("D_D1")
+        ("VPWL")
+        ("LDCR_0")
+        ("UCC28881D_TRANS")
+        ("D02BZ2_2")
+    )
+    ("instances"
+        ("R12"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R12")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1G")
+                    ("pspice_param"	"VALUE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+            )
+        )
+        ("R3"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R3")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"87.7k")
+                    ("pspice_param"	"VALUE")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+            )
+        )
+        ("R2"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R2")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"10k")
+                    ("pspice_param"	"VALUE")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+            )
+        )
+        ("C4"
+            ("device_name"	"CESR_3")
+            ("pspice_path"	"X_C4")
+            ("level"	"0")
+            ("model_params"
+                ("C"
+                    ("value"	"15n")
+                    ("pspice_param"	"C")
+                )
+                ("ESR"
+                    ("value"	"3m")
+                    ("pspice_param"	"ESR")
+                )
+                ("ESL"
+                    ("value"	"")
+                    ("pspice_param"	"ESL")
+                )
+                ("IC"
+                    ("value"	"0")
+                    ("pspice_param"	"IC")
+                )
+            )
+        )
+        ("Rload"
+            ("device_name"	"R")
+            ("pspice_path"	"R_Rload")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"200")
+                    ("pspice_param"	"VALUE")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+            )
+        )
+        ("C3"
+            ("device_name"	"C")
+            ("pspice_path"	"C_C3")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"0.1u")
+                    ("pspice_param"	"VALUE")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"CMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("CURRENT"
+                    ("value"	"CIMAX")
+                    ("pspice_param"	"CURRENT")
+                )
+                ("KNEE"
+                    ("value"	"CBMAX")
+                    ("pspice_param"	"KNEE")
+                )
+                ("SLOPE"
+                    ("value"	"CSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"CTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+            )
+        )
+        ("R13"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R13")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"10")
+                    ("pspice_param"	"VALUE")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+            )
+        )
+        ("D3"
+            ("device_name"	"D_D1")
+            ("pspice_path"	"D_D3")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+            )
+        )
+        ("D4"
+            ("device_name"	"D_D1")
+            ("pspice_path"	"D_D4")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+            )
+        )
+        ("VIN"
+            ("device_name"	"VPWL")
+            ("pspice_path"	"V_VIN")
+            ("level"	"0")
+            ("model_params"
+                ("V2"
+                    ("value"	"0")
+                    ("pspice_param"	"V2")
+                )
+                ("V3"
+                    ("value"	"350")
+                    ("pspice_param"	"V3")
+                )
+                ("T1"
+                    ("value"	"0")
+                    ("pspice_param"	"T1")
+                )
+                ("T2"
+                    ("value"	"10u")
+                    ("pspice_param"	"T2")
+                )
+                ("T3"
+                    ("value"	"20u")
+                    ("pspice_param"	"T3")
+                )
+                ("V1"
+                    ("value"	"0")
+                    ("pspice_param"	"V1")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+                ("AC"
+                    ("value"	"")
+                    ("pspice_param"	"AC")
+                )
+                ("T4"
+                    ("value"	"")
+                    ("pspice_param"	"T4")
+                )
+                ("V4"
+                    ("value"	"")
+                    ("pspice_param"	"V4")
+                )
+                ("T5"
+                    ("value"	"")
+                    ("pspice_param"	"T5")
+                )
+                ("V5"
+                    ("value"	"")
+                    ("pspice_param"	"V5")
+                )
+                ("T6"
+                    ("value"	"")
+                    ("pspice_param"	"T6")
+                )
+                ("V6"
+                    ("value"	"")
+                    ("pspice_param"	"V6")
+                )
+                ("T7"
+                    ("value"	"")
+                    ("pspice_param"	"T7")
+                )
+                ("V7"
+                    ("value"	"")
+                    ("pspice_param"	"V7")
+                )
+                ("T8"
+                    ("value"	"")
+                    ("pspice_param"	"T8")
+                )
+                ("V8"
+                    ("value"	"")
+                    ("pspice_param"	"V8")
+                )
+            )
+        )
+        ("C5"
+            ("device_name"	"CESR_3")
+            ("pspice_path"	"X_C5")
+            ("level"	"0")
+            ("model_params"
+                ("C"
+                    ("value"	"330u")
+                    ("pspice_param"	"C")
+                )
+                ("ESR"
+                    ("value"	"0.03")
+                    ("pspice_param"	"ESR")
+                )
+                ("IC"
+                    ("value"	"0")
+                    ("pspice_param"	"IC")
+                )
+                ("ESL"
+                    ("value"	"")
+                    ("pspice_param"	"ESL")
+                )
+            )
+        )
+        ("L2"
+            ("device_name"	"LDCR_0")
+            ("pspice_path"	"X_L2")
+            ("level"	"0")
+            ("model_params"
+                ("L"
+                    ("value"	"1m")
+                    ("pspice_param"	"L")
+                )
+                ("DCR"
+                    ("value"	"1.2")
+                    ("pspice_param"	"DCR")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+            )
+        )
+        ("U1"
+            ("device_name"	"UCC28881D_TRANS")
+            ("pspice_path"	"X_U1")
+            ("level"	"0")
+            ("model_params"
+                ("OriginalSymbolOrigin"
+                    ("value"	"(-60000,50000)")
+                    ("pspice_param"	"OriginalSymbolOrigin")
+                )
+                ("PIN_COUNT"
+                    ("value"	"7")
+                    ("pspice_param"	"PIN_COUNT")
+                )
+                ("< Value >"
+                    ("value"	"UCC28881D")
+                    ("pspice_param"	"< Value >")
+                )
+                ("Manufacturer"
+                    ("value"	"Texas Instruments")
+                    ("pspice_param"	"Manufacturer")
+                )
+                ("CompType"
+                    ("value"	"IC")
+                    ("pspice_param"	"CompType")
+                )
+                ("MountType"
+                    ("value"	"SMT")
+                    ("pspice_param"	"MountType")
+                )
+                ("PackageReference"
+                    ("value"	"D0007A")
+                    ("pspice_param"	"PackageReference")
+                )
+                ("Alternate PartNumber"
+                    ("value"	"UCC28881D")
+                    ("pspice_param"	"Alternate PartNumber")
+                )
+                ("PartNumber"
+                    ("value"	"UCC28881DR")
+                    ("pspice_param"	"PartNumber")
+                )
+                ("Application_BuildNumber"
+                    ("value"	"*")
+                    ("pspice_param"	"Application_BuildNumber")
+                )
+                ("DeviceNumbering"
+                    ("value"	"Alpha")
+                    ("pspice_param"	"DeviceNumbering")
+                )
+                ("DeviceDesignator"
+                    ("value"	"A")
+                    ("pspice_param"	"DeviceDesignator")
+                )
+                ("DevicesInPackage"
+                    ("value"	"1")
+                    ("pspice_param"	"DevicesInPackage")
+                )
+                ("DevicesInView"
+                    ("value"	"1")
+                    ("pspice_param"	"DevicesInView")
+                )
+                ("IsHeterogeneous"
+                    ("value"	"False")
+                    ("pspice_param"	"IsHeterogeneous")
+                )
+                ("PackageName"
+                    ("value"	"UCC28881D")
+                    ("pspice_param"	"PackageName")
+                )
+            )
+        )
+        ("C6"
+            ("device_name"	"C")
+            ("pspice_path"	"C_C6")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"0.01u")
+                    ("pspice_param"	"VALUE")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"CMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("CURRENT"
+                    ("value"	"CIMAX")
+                    ("pspice_param"	"CURRENT")
+                )
+                ("KNEE"
+                    ("value"	"CBMAX")
+                    ("pspice_param"	"KNEE")
+                )
+                ("SLOPE"
+                    ("value"	"CSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"CTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+            )
+        )
+        ("D5"
+            ("device_name"	"D02BZ2_2")
+            ("pspice_path"	"D_D5")
+            ("level"	"0")
+            ("model_params"
+                ("COMPONENT"
+                    ("value"	"02BZ2_2")
+                    ("pspice_param"	"COMPONENT")
+                )
+            )
+        )
+    )
+)

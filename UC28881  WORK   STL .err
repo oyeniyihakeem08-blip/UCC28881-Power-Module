@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (16.6.0.d001)
+STATUS:  
+STATUS: Translator started at Saturday, October 11, 2025 10:56:37
+STATUS: C:\OrCAD\OrCAD_16.6_Lite\tools\capture\sch2cap -f "C:\Users\Oyebisi\Documents\UCC28881 PROJECT\UC28881  WORK   STL .cir" -o "C:\Users\Oyebisi\Documents\UCC28881 PROJECT\UC28881  WORK   STL .OPJ" -i C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini -d 008B1182 -h  -p  -c  -z 
+INFO(ORSCH-1029): Using existing library 'C:\OrCAD\OrCAD_16.6_Lite\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'C:\Users\Oyebisi\Documents\UCC28881 PROJECT\UC28881  WORK   STL .olb'.
+STATUS: Translator stopped at Saturday, October 11, 2025 10:56:38
+STATUS: 0 Error messages, 0 Warning messages

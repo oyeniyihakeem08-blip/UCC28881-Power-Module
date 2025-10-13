@@ -1,0 +1,69 @@
+
+**** 10/13/25 21:06:40 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "STEADY-STEADY"  [ C:\Users\Oyebisi\Downloads\UCC28881 Stimulation files\UCC28881_PSPICE_TRANS\ucc28881_trans-pspicefile
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "STEADY.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../ucc28881_trans.lib" 
+.INC "../../../ucc28881d_trans.olb" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+
+**** INCLUDING ucc28881d_trans.olb ****
+–œ‡°±
+$
+ERROR(ORPSIM-16316): Invalid device
+
+**** RESUMING STEADY.cir ****
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3.6m 1.6m 15n 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.OPTIONS ITL1= 750
+.OPTIONS ITL2= 100
+.OPTIONS ITL4= 50
+.OPTIONS RELTOL= 0.002
+.PROBE64 V(alias(*)) I(alias(*)) 
+.INC "..\STEADY.net" 
+
+
+
+**** INCLUDING STEADY.net ****
+* source UCC28881_TRANS
+D_D4         0 GND_MOS DIODE 
+R_R12         0 N14613364  1G TC=0,0 
+C_C6         GND_MOS FB  0.01u  
+X_L2         GND_MOS VOUT LDCR PARAMS: L=1m DCR=1.2
+D_D3         VOUT N14613750 DIODE 
+R_R2         GND_MOS FB  10k  
+C_C3         GND_MOS VDD  0.1u  
+V_VIN         N14613732 0  
++PWL 0 0 10u 0 20u 350 
+X_C4         GND_MOS N14613750 CESR PARAMS: C=15n ESR=3m
+R_R13         N14613732 HVIN  10  
+R_R3         N14613750 FB  87.7k  
+R_Rload         0 VOUT  {10/0.05}  
+X_C5         0 VOUT CESR PARAMS: C=330u ESR=0.03
+D_D5         0 VOUT ZENER_16V 
+X_U1         HVIN FB GND_MOS GND_MOS HVIN N14613364 VDD UCC28881_TRANS
+.IC         V(VOUT )=10
+
+**** RESUMING STEADY.cir ****
+.END
+
