@@ -477,18 +477,6 @@
     [
       "02261b3b-0ab5-411c-b90d-2981c1ef32c1",
       ""
-    ],
-    [
-      "fb27a4d2-e43a-4d93-b9d6-c1683e793fef",
-      "INPUTSTAGE"
-    ],
-    [
-      "50e508f9-c506-4c6b-8d20-c3808eadc697",
-      "POWER"
-    ],
-    [
-      "12d9b082-3d29-4215-9b8e-e7443d4e7d42",
-      "FEEDBACK"
     ]
   ],
   "text_variables": {}
