@@ -23,3 +23,23 @@ mysettings.kicad_pro
 # Common stray project copies
 Version1.*
 untitled.*
+
+# PSpice simulation temp and cache files
+*.log
+*.pstswg.*
+*.0
+*.1
+*.2
+*.3
+*.4
+*.5
+*.6
+*.7
+*.8
+
+# Ignore testbench folders or temp blocks
+tbblocks/
+
+# Optional: ignore backup/autosave files
+*~
+*.bak
