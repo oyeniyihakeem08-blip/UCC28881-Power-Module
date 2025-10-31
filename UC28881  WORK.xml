@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Oyebisi\Documents\UCC28881 PROJECT\UC28881  WORK.kicad_sch</source>
+    <date>10/31/2025 12:56:19 PM</date>
+    <tool>Eeschema 7.0.11-rc3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>UC28881  WORK.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10U</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://octopart.com/opatz8j6/a1?t=mpnzaMia1hkfZMbtP4BEaw_iVQL5kjD4C4Etd0biOdMCybAb5XP8JIAwj5FTHuIp_HDhJVNhT4CNXENoaSgIasUEXw6-8pwjSbdajTy_8UoUewbd36iArytoCVkmmiclYxf9sL6vEy31q2LCR1r71BHK01lNuYAhc_FqCSZ7gFpi6yvOyfvaGMFq2XQdv9R0-k_coGOwlAPpU9Atn7jZr6HygMvvlmF3-muEAny21HNtkn77uRwsY0c0sOi_ChqiPAgnYf8ABiPUAj705Ewn_Q</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Cornell Dubilier Knowles</field>
+        <field name="MANUFACTURER PART NO">106CKS450MLU</field>
+        <field name="PACKAGE">RADIAL/THT</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">1572-1650-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="SUPPLIER PART NO" value="1572-1650-ND"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="MANUFACTURER" value="Cornell Dubilier Knowles"/>
+      <property name="MANUFACTURER PART NO" value="106CKS450MLU"/>
+      <property name="PACKAGE" value="RADIAL/THT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1941b4c2-388e-455c-9914-9d6a3a483570</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KYOCERA AVX</field>
+        <field name="MANUFACTURER PART NO">12065C104JAT2A</field>
+        <field name="PACKAGE">1206</field>
+        <field name="SUPPLIER">MOUSER</field>
+        <field name="SUPPLIER PART NO">581-12065C104J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MANUFACTURER PART NO" value="12065C104JAT2A"/>
+      <property name="MANUFACTURER" value="KYOCERA AVX"/>
+      <property name="SUPPLIER" value="MOUSER"/>
+      <property name="SUPPLIER PART NO" value="581-12065C104J"/>
+      <property name="PACKAGE" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b9c1aa4-7f16-452a-aea3-879822de9c7c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://www.mouser.com/catalog/specsheets/taiyo%20yuden_07182019_MLCC%20AECQ200%20Grade%201%20X7R%20data%20sheet.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">TAIYO YUDEN</field>
+        <field name="MANUFACTURER PART NO">UMF325B7104KNHT</field>
+        <field name="PACKAGE">1206</field>
+        <field name="SUPPLIER">MOUSER</field>
+        <field name="SUPPLIER PART NO">PCF1552CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MANUFACTURER" value="TAIYO YUDEN"/>
+      <property name="MANUFACTURER PART NO" value="UMF325B7104KNHT"/>
+      <property name="SUPPLIER" value="MOUSER"/>
+      <property name="SUPPLIER PART NO" value="PCF1552CT-ND"/>
+      <property name="PACKAGE" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64fba5c7-9377-441a-8e28-ebe670bc682e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>15n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MANUFACTURER PART NO">C1206C153K5RACTU</field>
+        <field name="PACKAGE">1206</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">399-C1206C153K5RACTUCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="MANUFACTURER PART NO" value="C1206C153K5RACTU"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="SUPPLIER PART NO" value="399-C1206C153K5RACTUCT-ND"/>
+      <property name="PACKAGE" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb0144fa-599d-4723-a0b1-73d7ed1c2cb2</tstamps>
+    </comp>
+    <comp ref="CBULK1">
+      <value>10U</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/illinois-capacitor/106CKS450MLU/5410637?curr=usd</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Cornell Dubilier Knowles</field>
+        <field name="MANUFACTURER PART NO">106CKS450MLU</field>
+        <field name="PACKAGE">Radial /THT</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">1572-1650-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="SUPPLIER PART NO" value="1572-1650-ND"/>
+      <property name="MANUFACTURER" value="Cornell Dubilier Knowles"/>
+      <property name="MANUFACTURER PART NO" value="106CKS450MLU"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="PACKAGE" value="Radial /THT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34be8807-9454-43f8-88c8-27e2c8fcee2a</tstamps>
+    </comp>
+    <comp ref="COUT1">
+      <value>47UF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="MANUFACTURER">TDK Corporation</field>
+        <field name="MANUFACTURER PART NO">C3216X5R1C476M160AB</field>
+        <field name="PACKAGE">1206</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">445-6003-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="MANUFACTURER" value="TDK Corporation"/>
+      <property name="MANUFACTURER PART NO" value="C3216X5R1C476M160AB"/>
+      <property name="SUPPLIER PART NO" value="445-6003-1-ND"/>
+      <property name="PACKAGE" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>491f8188-7b92-4fdc-adbd-243405328552</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>STTH1R06A</value>
+      <footprint>D1:SMA_STM-M</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/stmicroelectronics/STTH1R06A/691935?curr=usd&amp;utm_campaign=buynow&amp;utm_medium=aggregator&amp;utm_source=octopart</datasheet>
+      <fields>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="MANUFACTURER PART NO">STTH1R06A</field>
+        <field name="PACKAGE">DO-214AC, SMA</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">497-3765-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="MANUFACTURER" value="STMicroelectronics"/>
+      <property name="MANUFACTURER PART NO" value="STTH1R06A"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="SUPPLIER PART NO" value="497-3765-1-ND"/>
+      <property name="PACKAGE" value="DO-214AC, SMA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2605dcbf-2d0d-4592-a9de-ff2fd47a6c0d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>M7</value>
+      <footprint>D2:D2</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/diotec-semiconductor-america-corporation/M7/20391074?curr=usd&amp;utm_campaign=buynow&amp;utm_medium=aggregator&amp;utm_source=octopart</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Diotec Semiconductor</field>
+        <field name="MANUFACTURER PART NO">M7</field>
+        <field name="PACKAGE">DO-214AC, SMA</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">4878-M7DKR-ND</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="MANUFACTURER" value="Diotec Semiconductor"/>
+      <property name="MANUFACTURER PART NO" value="M7"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="SUPPLIER PART NO" value="4878-M7DKR-ND"/>
+      <property name="PACKAGE" value="DO-214AC, SMA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>395c4f61-a804-4655-9720-cb5f3af8802b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-nz/products/printed-circuit-board-terminal-mkds-15-3-508-1715734</datasheet>
+      <fields>
+        <field name="MANUFACTURER">PHOENIX CONTACT</field>
+        <field name="MANUFACTURER PART NO">.</field>
+        <field name="PACKAGE">.</field>
+        <field name="SUPPLIER">.</field>
+        <field name="SUPPLIER PART NO">.</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MANUFACTURER" value="PHOENIX CONTACT"/>
+      <property name="MANUFACTURER PART NO" value="."/>
+      <property name="SUPPLIER" value="."/>
+      <property name="SUPPLIER PART NO" value="."/>
+      <property name="PACKAGE" value="."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1796895b-97bf-48d6-8d05-d0bc7c40012e</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1M</value>
+      <footprint>L1 1MH:L_Wurth_WE-PD2HV-7850</footprint>
+      <datasheet>https://www.we-online.com/en/components/products/WE-PD2-HV#/articles/WE-PD2-HV-7850</datasheet>
+      <fields>
+        <field name="MANUFACTURER">.</field>
+        <field name="MANUFACTURER PART NO">76877530</field>
+        <field name="SUPPLIER">.</field>
+        <field name="SUPPLIER PART NO">.</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="MANUFACTURER PART NO" value="76877530"/>
+      <property name="MANUFACTURER" value="."/>
+      <property name="SUPPLIER" value="."/>
+      <property name="SUPPLIER PART NO" value="."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9995724f-33d2-4281-b431-faf7604a460f</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>1M</value>
+      <footprint>L2 1MH:DR127</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/eaton-electronics-division/DR127-102-R/953617?curr=usd&amp;utm_campaign=buynow&amp;utm_medium=aggregator&amp;utm_source=octopart</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Eaton - Electronics Division</field>
+        <field name="MANUFACTURER PART NO">DR127-102-R</field>
+        <field name="PACKAGE">.</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">513-1217-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="MANUFACTURER" value="Eaton - Electronics Division"/>
+      <property name="MANUFACTURER PART NO" value="DR127-102-R"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="SUPPLIER PART NO" value="513-1217-1-ND"/>
+      <property name="PACKAGE" value="."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>375904f0-b962-4458-85a5-4e4f185b192f</tstamps>
+    </comp>
+    <comp ref="Rf1">
+      <value>15</value>
+      <footprint>RF:RF1  RC1206N_PAN-M</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-P08J150V/525576?curr=usd&amp;utm_campaign=buynow&amp;utm_medium=aggregator&amp;utm_source=octopart</datasheet>
+      <fields>
+        <field name="MANUFACTURER">PANASONIC</field>
+        <field name="MANUFACTURER PART NO">ERJ-P08J150V</field>
+        <field name="PACKAGE">1206</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">P15ALCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MANUFACTURER" value="PANASONIC"/>
+      <property name="MANUFACTURER PART NO" value="ERJ-P08J150V"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="SUPPLIER PART NO" value="P15ALCT-ND"/>
+      <property name="PACKAGE" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b283e14-223c-4c9b-9829-db81e5f0df60</tstamps>
+    </comp>
+    <comp ref="RFB1">
+      <value>10k</value>
+      <footprint>10k resistor:RESC3116X65N</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/bourns-inc/CR2010-FX-1002ELF/21774723?curr=usd&amp;utm_campaign=buynow&amp;utm_medium=aggregator&amp;utm_source=octopart</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MANUFACTURER PART NO">CR2010-FX-1002ELF</field>
+        <field name="PACKAGE">2010</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">118-CR2010-FX-1002ELFCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="SUPPLIER PART NO" value="118-CR2010-FX-1002ELFCT-ND"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MANUFACTURER PART NO" value="CR2010-FX-1002ELF"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="PACKAGE" value="2010"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d251b21-a138-44ba-892b-d6370249c4d8</tstamps>
+    </comp>
+    <comp ref="RFB2">
+      <value>110k</value>
+      <footprint>110k resistor:RESC3216X75N</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/bourns-inc/CR1206-JW-114ELF/3785526</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Bourns Inc.</field>
+        <field name="MANUFACTURER PART NO">CR1206-JW-114ELF</field>
+        <field name="PACKAGE">1206</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">118-CR1206-JW-114ELFCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="MANUFACTURER" value="Bourns Inc."/>
+      <property name="MANUFACTURER PART NO" value="CR1206-JW-114ELF"/>
+      <property name="SUPPLIER PART NO" value="118-CR1206-JW-114ELFCT-ND"/>
+      <property name="PACKAGE" value="1206"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b99c209-38a8-404c-84bc-441a0c15d30b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>UCC28881</value>
+      <footprint>UCC2881:TI_SOIC-8_D_UCC28881_1.27mm</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/texas-instruments/UCC28810D/2048170?curr=usd&amp;utm_campaign=buynow&amp;utm_medium=aggregator&amp;utm_source=octopart</datasheet>
+      <fields>
+        <field name="MANUFACTURER">TEXAS INSTRUMENTS</field>
+        <field name="MANUFACTURER PART NO">UCC28810D</field>
+        <field name="PACKAGE">8-SOIC</field>
+        <field name="SUPPLIER">DIGIKEY</field>
+        <field name="SUPPLIER PART NO">296-27162-5-ND</field>
+      </fields>
+      <libsource lib="New_Library for  UCC28881" part="UCC28881" description="Power mangement IC"/>
+      <property name="MANUFACTURER" value="TEXAS INSTRUMENTS"/>
+      <property name="MANUFACTURER PART NO" value="UCC28810D"/>
+      <property name="SUPPLIER" value="DIGIKEY"/>
+      <property name="SUPPLIER PART NO" value="296-27162-5-ND"/>
+      <property name="PACKAGE" value="8-SOIC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UC28881  WORK.kicad_sch"/>
+      <property name="ki_description" value="Power mangement IC"/>
+      <property name="ki_keywords" value="UCC28881"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8578ad74-bba2-4259-a7ae-22d9d0e5c979</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="New_Library for  UCC28881" part="UCC28881">
+      <description>Power mangement IC</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ucc28881.pdf?ts=1759591415716&amp;ref_url=https%253A%252F%252Fapp.ultralibrarian.com%252F</docs>
+      <footprints>
+        <fp>TI_SOIC-8_D_UCC28881_1.27mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UCC28881</field>
+        <field name="Footprint">UCC2881:TI_SOIC-8_D_UCC28881_1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ucc28881.pdf?ts=1759591415716&amp;ref_url=https%253A%252F%252Fapp.ultralibrarian.com%252F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="VDD" type="power_out"/>
+        <pin num="5" name="HVIN" type="input"/>
+        <pin num="6" name="NC" type="unspecified"/>
+        <pin num="8" name="DRAIN" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="New_Library for  UCC28881">
+      <uri>C:/Users/Oyebisi/Documents/KiCad/7.0/symbols/New_Library for  UCC28881.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/10V_OUT_P">
+      <node ref="COUT1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/Feedback pin">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="RFB1" pin="2" pintype="passive"/>
+      <node ref="RFB2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="3" name="/GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="CBULK1" pin="2" pintype="passive"/>
+      <node ref="COUT1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/HV_IN_P">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Rf1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(CBULK1-Pad1)">
+      <node ref="CBULK1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Rf1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-K)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RFB1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-K)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RFB2" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(U1-DRAIN)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="HVIN" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="DRAIN" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(U1-VDD)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VDD" pintype="power_out"/>
+    </net>
+    <net code="10" name="unconnected-(U1-NC-Pad6)">
+      <node ref="U1" pin="6" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

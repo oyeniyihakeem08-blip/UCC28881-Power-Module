@@ -1,0 +1,23 @@
+Source:,C:\Users\Oyebisi\Documents\UCC28881 PROJECT\UC28881  WORK.kicad_sch,,,,,,,,,
+Date:,10/31/2025 12:56,,,,,,,,,
+Tool:,Eeschema 7.0.11-rc3,,,,,,,,,
+Generator:,C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,
+Component Count:,15,,,,,,,,,
+,,,,,,,,,,
+Collated Components:,,,,,,,,,,
+,,,,,,,,,,
+Item,Qty,Reference(s),Value,Footprint,Datasheet,MANUFACTURER,MANUFACTURER PART NO,PACKAGE,SUPPLIER,SUPPLIER PART NO
+1,2,"C1, CBULK1",10U,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,https://octopart.com/opatz8j6/a1?t=mpnzaMia1hkfZMbtP4BEaw_iVQL5kjD4C4Etd0biOdMCybAb5XP8JIAwj5FTHuIp_HDhJVNhT4CNXENoaSgIasUEXw6-8pwjSbdajTy_8UoUewbd36iArytoCVkmmiclYxf9sL6vEy31q2LCR1r71BHK01lNuYAhc_FqCSZ7gFpi6yvOyfvaGMFq2XQdv9R0-k_coGOwlAPpU9Atn7jZr6HygMvvlmF3-muEAny21HNtkn77uRwsY0c0sOi_ChqiPAgnYf8ABiPUAj705Ewn_Q,Cornell Dubilier Knowles,106CKS450MLU,RADIAL/THT,DIGIKEY,1572-1650-ND
+2,1,C2,0.1u,Capacitor_SMD:C_1206_3216Metric,https://datasheets.kyocera-avx.com/KGM_X7R.pdf,KYOCERA AVX,12065C104JAT2A,1206,MOUSER,581-12065C104J
+3,1,C3,100n,Capacitor_SMD:C_1206_3216Metric,https://www.mouser.com/catalog/specsheets/taiyo%20yuden_07182019_MLCC%20AECQ200%20Grade%201%20X7R%20data%20sheet.pdf,TAIYO YUDEN,UMF325B7104KNHT,1206,MOUSER,PCF1552CT-ND
+4,1,C4,15n,Capacitor_SMD:C_1206_3216Metric,https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD,KEMET,C1206C153K5RACTU,1206,DIGIKEY,399-C1206C153K5RACTUCT-ND
+5,1,COUT1,47UF,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf,TDK Corporation,C3216X5R1C476M160AB,1206,DIGIKEY,445-6003-1-ND
+6,1,D1,STTH1R06A,D1:SMA_STM-M,https://www.digikey.com/en/products/detail/stmicroelectronics/STTH1R06A/691935?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart,STMicroelectronics,STTH1R06A,"DO-214AC, SMA",DIGIKEY,497-3765-1-ND
+7,1,D2,M7,D2:D2,https://www.digikey.com/en/products/detail/diotec-semiconductor-america-corporation/M7/20391074?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart,Diotec Semiconductor,M7,"DO-214AC, SMA",DIGIKEY,4878-M7DKR-ND
+8,1,J1,Screw_Terminal_01x03,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",https://www.phoenixcontact.com/en-nz/products/printed-circuit-board-terminal-mkds-15-3-508-1715734,PHOENIX CONTACT,.,.,.,.
+9,1,L1,1M,L1 1MH:L_Wurth_WE-PD2HV-7850,https://www.we-online.com/en/components/products/WE-PD2-HV#/articles/WE-PD2-HV-7850,.,76877530,,.,.
+10,1,L2,1M,L2 1MH:DR127,https://www.digikey.com/en/products/detail/eaton-electronics-division/DR127-102-R/953617?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart,Eaton - Electronics Division,DR127-102-R,.,DIGIKEY,513-1217-1-ND
+11,1,Rf1,15,RF:RF1  RC1206N_PAN-M,https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-P08J150V/525576?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart,PANASONIC,ERJ-P08J150V,1206,DIGIKEY,P15ALCT-ND
+12,1,RFB1,10k,10k resistor:RESC3116X65N,https://www.digikey.com/en/products/detail/bourns-inc/CR2010-FX-1002ELF/21774723?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart,Bourns Inc.,CR2010-FX-1002ELF,2010,DIGIKEY,118-CR2010-FX-1002ELFCT-ND
+13,1,RFB2,110k,110k resistor:RESC3216X75N,https://www.digikey.com/en/products/detail/bourns-inc/CR1206-JW-114ELF/3785526,Bourns Inc.,CR1206-JW-114ELF,1206,DIGIKEY,118-CR1206-JW-114ELFCT-ND
+14,1,U1,UCC28881,UCC2881:TI_SOIC-8_D_UCC28881_1.27mm,https://www.digikey.com/en/products/detail/texas-instruments/UCC28810D/2048170?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart,TEXAS INSTRUMENTS,UCC28810D,8-SOIC,DIGIKEY,296-27162-5-ND
