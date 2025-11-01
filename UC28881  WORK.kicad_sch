@@ -775,7 +775,7 @@
     (uuid fe021fa1-4dcf-4131-9adb-4454e996580f)
   )
 
-  (label "10V_OUT_P" (at 274.32 91.44 90) (fields_autoplaced)
+  (label "12V_OUT_P" (at 274.32 91.44 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 00f98c67-2e6a-4a29-9390-330b892a9288)
   )
@@ -807,7 +807,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid dc652505-a36b-48c4-8c6e-7406a5c3b513)
   )
-  (label "10V_OUT_P" (at 254 88.9 0) (fields_autoplaced)
+  (label "12V_OUT_P" (at 254 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e9c61b8b-05d4-4e46-bea7-8744e83e196b)
   )
